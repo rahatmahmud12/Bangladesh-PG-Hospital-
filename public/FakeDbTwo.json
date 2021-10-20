@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Selim Reza",
+        "Age": 45,
+        "img": "https://i.ibb.co/nwFGC9B/20201118-112353.jpg",
+        "speciality": "Skin specialist",
+        "describtion": "Skin Doctors award-winning cosmeceuticals are based on cutting edge formulations."
+    },
+    {
+        "id": 2,
+        "name": "Dr. Nazmul Haque",
+        "Age": 44,
+        "img": "https://i.ibb.co/R6ZTD53/20210205-175022.jpg",
+        "speciality": "Eye specialist",
+        "describtion": " An ophthalmologist or eye specialist is a medical doctor who specializes in eye and vision care"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Akash Ahmed",
+        "Age": 37,
+        "img": "https://i.ibb.co/GTt24fc/20210303-122613.jpg",
+        "speciality": "Heart specialist",
+        "describtion": " An ophthalmologist or eye specialist is a medical doctor who specializes in eye and vision care"
+    },
+    {
+        "id": 4,
+        "name": "Dr. John Luis",
+        "Age": 61,
+        "img": "https://i.ibb.co/98cdsfY/Remnick-John-Lewis.jpg",
+        "speciality": "Medicine specialist",
+        "describtion": " Doctor of Medicine is a medical degree, the meaning of which varies between different jurisdictions. "
+    },
+    {
+        "id": 5,
+        "name": "Dr. Peterson Macaau",
+        "Age": 35,
+        "img": "https://i.ibb.co/37Hd3BL/5fc5b501cbda8-r-Id6.jpg",
+        "speciality": "Cancer specialist",
+        "describtion": " Oncology is the study of cancer. An oncologist is a doctor who treats cancer and provides medical care for a person diagnosed with cancer"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Ahmed Khan",
+        "Age": 45,
+        "img": "https://i.ibb.co/2WVpC1b/Pytb-Qnr9-400x400.jpg",
+        "speciality": "Medicine specialist",
+        "describtion": "  Doctor of Medicine is a medical degree, the meaning of which varies between different jurisdictions."
+    }
+]

@@ -1,0 +1,58 @@
+
+.titlea {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-blocka {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.carda {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-control-prev-icon {
+ background-image: url("https://electronichealthreporter.com/wp-content/uploads/2020/06/9-Essential-Tips-for-Cleaning-and-Housekeeping-in-Hospitals.jpg?ezimgfmt=ng:webp/ngcb1") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://static.scientificamerican.com/sciam/cache/file/F6FF3DF2-A99D-4BE0-99595C9E4717FEF4_source.jpg") !important;
+
+ lex-direction: column;
+}
+
+.btn {
+  margin-top: auto;
+}

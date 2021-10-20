@@ -1,0 +1,25 @@
+.doctor-pic{
+    width: 120px;
+    height: 100px;
+    border-radius: 45px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.one-card{
+width: 300px;
+height: 430px;
+margin-right: 50px;
+margin-left: 50px;
+margin-bottom: 50px;
+background-color: rgb(94, 89, 89);
+color: rgb(247, 250, 247);
+margin-top: 30px;
+}
+
+.bg{
+    background-color: rgb(56, 46, 63);
+}
+.descrip{
+    padding-bottom: px;
+}
