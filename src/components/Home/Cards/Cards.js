@@ -2,13 +2,18 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Booking from '../../Booking/Booking';
 
 
 import './Cards.css'
 
 const Cards = (props) => {
+
+
+
     const { id, img, service, description, phone } = props.service
     return (
+
         <div className="card-div ">
             <div class="container mt-2">
 
@@ -21,6 +26,7 @@ const Cards = (props) => {
                             <p class="card-text">{description}</p>
 
                             <Link to={`/booking/${id}`}><Button className="">Contract {service} </Button></Link>
+
 
                             <h6 className="pt-5">Phone: {phone}</h6>
 

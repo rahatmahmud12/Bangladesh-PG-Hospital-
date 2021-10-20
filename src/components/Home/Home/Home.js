@@ -14,9 +14,11 @@ const Home = () => {
 
     return (
         <div>
-            <div><Other></Other></div>
+
 
             <div><Slide></Slide></div>
+
+            <div><Other></Other></div>
 
         </div>
     );

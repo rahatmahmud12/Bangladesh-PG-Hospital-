@@ -11,9 +11,9 @@ const Header = () => {
         <div>
 
             <div className="pb-5">
-                <Navbar className="fixed-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar className="fixed-top" collapseOnSelect navbar-expand-lg expand="lg" bg="dark" variant="dark">
                     <Container>
-                        <img style={{ width: '15%' }} src="https://i.ibb.co/hFvX2G4/Screenshot-48-removebg-preview-removebg-preview.jpg" />
+                        <img as style={{ width: '15%' }} src="https://i.ibb.co/hFvX2G4/Screenshot-48-removebg-preview-removebg-preview.jpg" />
 
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse className="ps-5" id="responsive-navbar-nav">
@@ -36,7 +36,7 @@ const Header = () => {
                                 user?.email ?
                                     <button className="text-white ml-3" onClick={logOut}>Log Out</button>
                                     :
-                                    <NavLink className="head-text pl-3" to="/login">LogIn</NavLink>}
+                                    <NavLink className="head-text pl-3 fs-5" to="/login">LogIn</NavLink>}
 
                         </Navbar.Collapse>
                     </Container>

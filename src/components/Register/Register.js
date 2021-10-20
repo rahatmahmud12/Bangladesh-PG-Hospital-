@@ -1,23 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './Register.css'
 
 const Register = () => {
 
+
+    const { signInUsingGoogle } = useAuth()
+
     return (
         <div className="pt-5 pb-5 register" onSubmit="">
-            <form>
-                <input placeholder="Your Email" type="email" name="" id="" /><br />
 
-                <input placeholder="Password" type="password" name="" id="" /><br />
-                <input placeholder="Re-enter password" type="password" name="" id="" /><br />
-                <input type="submit" value="Submit"></input>
-            </form>
-            <p>Already Have An Account? <Link to="/login">Log In</Link></p>
+            <p>Already Have An Account? <Link to="/login"><button className="btn btn-warning">LogIn</button></Link></p>
 
-            <div>
-                <Button >Google Sign In</Button>
+            <div className="pt-5">
+                <Button onClick={signInUsingGoogle}>Google Sign In</Button>
             </div>
         </div>
     );

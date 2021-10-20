@@ -1,7 +1,14 @@
 .login{
-    margin-top: 100px;}
+    margin-top: 50px;
+    background-color: lightblue;
+    width: 50%;
+    margin-left: 25%;
+}
     .btnn{
         background-color: rgb(116, 105, 6);
         padding: 5px;
         border-radius: 5px;
+    }
+    .bttn{
+        margin-right: 40px;
     }
