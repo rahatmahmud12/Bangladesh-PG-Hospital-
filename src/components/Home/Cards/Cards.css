@@ -60,3 +60,9 @@ div [class^="col-"]{
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1);
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    display: bolck;
+  }
+}

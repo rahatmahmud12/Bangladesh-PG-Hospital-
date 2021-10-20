@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
     return (
         <div>
-            <p>hello</p>
+
 
             <div className="container tw-mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 h-screen">

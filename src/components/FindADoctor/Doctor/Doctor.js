@@ -7,7 +7,7 @@ const Doctor = (props) => {
     const { name, img, Age, speciality, describtion } = props.doctor
     return (
         <div>
-            <Card className="one-card ">
+            <Card className="one-card col-sm-1">
                 <Card.Img className="doctor-pic" variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>

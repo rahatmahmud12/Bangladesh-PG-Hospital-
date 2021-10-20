@@ -13,7 +13,7 @@ const Footer = () => {
     const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
     const copyRight = <FontAwesomeIcon icon={faCopyright} />
     return (
-        <nav className="sticky">
+        <nav className="sticky-top">
             <div fixed="bottom" className="bg-dark text-white pt-5 pb-3 ">
                 <h2>Bangladesh PG Hospital</h2>
                 <p><span>{facebookIcon}</span>  <span className="ps-2">{instraIcon} </span>  <span className="ps-2">{telegramIcon}</span> <span className="ps-2">{twitterIcon}</span> </p>

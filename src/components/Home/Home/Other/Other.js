@@ -81,9 +81,9 @@ const Other = () => {
                 </div>
 
 
-                <div className="carda float-right pl-2">
+                <div className="carda float-right pl-2 col-sm-1">
                     <div className="row pl-2">
-                        <div className="col-sm-5">
+                        <div className="col-sm-7">
                             <img className="d-block w-100 pt-1" src="https://i.ibb.co/R0RpWCF/Portrait-Of-Mature-Male-Doctor-Wearing-White-Coat-Standing-In-Hospital-Corridor.jpg" alt="" />
                         </div>
                         <div className="col-sm-7">

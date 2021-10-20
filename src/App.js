@@ -41,9 +41,9 @@ function App() {
             <Route path="/insurance">
               <Insurance></Insurance>
             </Route>
-            <Route path="/booking/:serviceId">
+            <PrivateRouter path="/booking/:serviceId">
               <Booking></Booking>
-            </Route>
+            </PrivateRouter>
             <Route path="/login">
               <Login></Login>
             </Route>

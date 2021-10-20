@@ -12,3 +12,13 @@
     .bttn{
         margin-right: 40px;
     }
+
+    @media only screen and (max-width: 600px) {
+  .login {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+    

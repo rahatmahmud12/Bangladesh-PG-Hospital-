@@ -18,7 +18,7 @@ const Cards = (props) => {
             <div class="container mt-2">
 
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-3">
                         <div className="card card-block">
 
                             <img className="image" src={img} alt="Photo of sunset" />
